@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+
+.App {
+  display: grid;
+  grid-template-rows: repeat(3, 100px);
+  place-items: center;
+}
+.row {
+  display: flex;
+}
+
+.node {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  display: grid;
+  place-items: center;
+  font-size: 50px;
+  background-color: white;
+}
+
+.logs {
+  margin: 10px;
+  padding: 5px 15px;
+  background-color: white;
+}
